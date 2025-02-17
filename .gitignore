@@ -1,0 +1,12 @@
+# Node.js dependencies
+/node_modules/
+
+# npm package-lock file (if you don't want to commit it)
+package-lock.json
+yarn.lock
+
+# Environment files (you may not want to commit sensitive data)
+.env
+
+# Logs
+*.log
