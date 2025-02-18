@@ -1,18 +1,21 @@
 {
   "name": "@senicrem/web-classic-biolerplate",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --config .prettierrc --write '**/*.{html,css,js}'",
     "format:check": "prettier --config .prettierrc --check '**/*.{html,css,js}'"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "boilerplate",
+    "html+vite",
+    "webdev",
+    "static"
+  ],
+  "author": "senicrem",
   "license": "ISC",
-  "description": "",
+  "description": "html+vite boilerplate",
   "devDependencies": {
     "prettier": "^3.5.1",
     "vite": "^6.1.0"
