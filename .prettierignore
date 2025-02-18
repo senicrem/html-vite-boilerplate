@@ -1,0 +1,15 @@
+# Ignore all files in the "node_modules" directory
+node_modules/
+
+# Ignore build and distribution folders
+dist/
+build/
+
+# Ignore all JSON files
+*.json
+
+# Ignore specific files
+src/some-file.js
+
+# Ignore all HTML files in a folder
+src/templates/**/*.html
